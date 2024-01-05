@@ -43,11 +43,12 @@ form {
     color: white;
     font-size: 18px;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
 }
 
 #search-button:hover {
-    background-color: green;
+    background-color: #f7bb00;
+    color: black;
 }
 
 .search-results {
