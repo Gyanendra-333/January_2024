@@ -99,10 +99,34 @@ form {
     color: white;
     border: none;
     font-size: 18px;
+    display: none;
     transition: 0.3s ease-in-out;
 }
 
 #show-more-button:hover {
     background-color: #f7bb00;
     color: black;
+}
+
+
+/* Responive */
+
+@media screen and (max-width:768px) {
+    .search-results {
+        padding: 16px;
+    }
+
+    .search-result {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search-results {
+        padding: 16px;
+    }
+
+    .search-result {
+        width: 100%;
+    }
 }
