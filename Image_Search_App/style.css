@@ -31,6 +31,7 @@ form {
 #search-input {
     width: 50%;
     max-width: 400px;
+    border: 2px solid goldenrod;
     padding: 10px 20px;
     border-radius: 8px;
 }
@@ -41,6 +42,7 @@ form {
     margin-left: 16px;
     background: #138065;
     color: white;
+    border: none;
     font-size: 18px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -85,4 +87,22 @@ form {
     text-decoration: none;
     padding: 12px;
     text-align: center;
+}
+
+#show-more-button {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 8px;
+    padding: 8px;
+    background: #1e6d87;
+    color: white;
+    border: none;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+#show-more-button:hover {
+    background-color: #f7bb00;
+    color: black;
 }
