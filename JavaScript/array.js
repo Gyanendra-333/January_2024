@@ -2,9 +2,11 @@
 // each element of given array with largest
 // element in new array to its left
 
-// Function to find array B from array 
+// Function to find array B from array
 // A such that Ai = Bi – max(B0…Bi-1)
+
 function find_array(a, n) {
+
     // Initialising as 0 as first 
     // element will remain same
     let x = 0;
@@ -14,7 +16,7 @@ function find_array(a, n) {
         // restoring values of B
         a[i] += x;
 
-        document.write(a[i] + ' ');
+        console.log(a[i] + ' ');
 
         // Find max value
         x = Math.max(x, a[i]);
@@ -23,6 +25,7 @@ function find_array(a, n) {
 
 
 let a = [40, 12, 62];
+let a = [30, 32, 62];
 let n = a.length;
 
 find_array(a, n);
