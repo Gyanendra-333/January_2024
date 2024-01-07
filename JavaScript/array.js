@@ -22,8 +22,6 @@ function find_array(a, n) {
         x = Math.max(x, a[i]);
     }
 }
-
-
 // let a = [40, 12, 62];
 // let a = [30, 32, 62];
 let a = [40, 32, 82];
