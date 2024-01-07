@@ -24,8 +24,9 @@ function find_array(a, n) {
 }
 
 
-let a = [40, 12, 62];
-let a = [30, 32, 62];
+// let a = [40, 12, 62];
+// let a = [30, 32, 62];
+let a = [40, 32, 82];
 let n = a.length;
 
 find_array(a, n);
