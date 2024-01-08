@@ -19,4 +19,8 @@
             screen.value = answer;
         }
     })
+    clear.addEventListener("click", function (e) {
+        screen.value = answer;
+    })
+
 })();
