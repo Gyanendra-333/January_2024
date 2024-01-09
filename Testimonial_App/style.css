@@ -95,3 +95,17 @@ h5 {
     background-color: #fd7802;
     color: #fff;
 }
+
+@media only screen and (max-width:760px) {
+    .card {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .prevBtn {
+        position: absolute;
+        top: 10%;
+        right: 16%;
+    }
+
+}
