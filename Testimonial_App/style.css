@@ -38,7 +38,7 @@ h5 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    text-align: left;
+    text-align: justify;
     flex-direction: column;
     padding: 30px;
     border-radius: 6px;
