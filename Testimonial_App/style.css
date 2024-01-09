@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #282a49;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+h3 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 0.7rem;
+    letter-spacing: 1px;
+}
+
+h5 {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.img-card {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.img-card img {
+    background-position: center;
+    background-size: cover;
+}
+
+.review {
+    padding-bottom: 1rem;
+}
+
+.star {
+    color: #fd7802;
+}
+
+.prevBtn,
+.nextBtn {
+    color: #fd7802;
+    font-size: 1.8rem;
+    width: 46px;
+    height: 46px;
+    max-width: 46px;
+    line-height: 46px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.prevBtn {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+
+.nextBtn {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.btn:hover {
+    background-color: #fd7802;
+    color: #fff;
+}
