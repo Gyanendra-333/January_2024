@@ -24,7 +24,7 @@ h4 {
 h6 {
     font-size: 0.9rem;
     font-weight: 700;
-    color: #6CAA7F;
+    color: #066523;
 }
 
 p {
@@ -46,4 +46,19 @@ hr {
     background-color: #27ae60;
     color: #27ae60;
     height: 0.1rem;
+}
+
+header .intro {
+    position: relative;
+}
+
+header .intro .veg-head {
+    height: 70vh;
+}
+
+header .intro .head {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
