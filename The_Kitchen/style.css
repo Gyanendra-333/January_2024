@@ -1,5 +1,3 @@
-/* #52b448 #fd7e14 */
-
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +31,7 @@ p {
 }
 
 button {
-    background-color: #6CAA7F;
+    background-color: #066523;
     border-style: none;
     padding: 0.7rem 1.3rem;
     font-size: 0.9rem;
@@ -43,9 +41,9 @@ button {
 }
 
 hr {
-    background-color: #27ae60;
-    color: #27ae60;
-    height: 0.1rem;
+    background-color: #3cff05;
+    color: #3cff05;
+    height: .2rem;
 }
 
 header .intro {
@@ -61,4 +59,51 @@ header .intro .head {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+header .intro .head h6 {
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+}
+
+header .intro .head p {
+    font-weight: 600;
+}
+
+header .intro .head p::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 2rem;
+    background-color: #52b448;
+}
+
+header .navbar .navbar-nav .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #52b448;
+    transition: width 0.3s;
+}
+
+header .navbar .navbar-nav .nav-link:hover::after {
+    width: 60%;
+    height: 2px;
+    background-color: #52b448;
+    transition: width 0.3s;
+    border-bottom: 2px solid #52b448;
+}
+
+header .navbar .navbar-nav i {
+    font-size: 1.3rem;
+    color: #0014c2;
+    cursor: pointer;
+}
+
+#you-red {
+    font-size: 1.3rem;
+    color: #ff1a1a;
+    cursor: pointer;
 }
