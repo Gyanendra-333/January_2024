@@ -12,3 +12,5 @@ isEven(5);
 isEven(6);
 isEven(7);
 isEven(9);
+isEven(10);
+
