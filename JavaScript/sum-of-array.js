@@ -47,4 +47,4 @@ function sum(arr, N, K) {
 var arr = [4, 6, 8, 2];
 var K = 2;
 var N = arr.length;
-document.write(sum(arr, N, K));
+console.log(sum(arr, N, K));
