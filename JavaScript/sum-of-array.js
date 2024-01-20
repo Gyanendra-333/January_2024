@@ -32,7 +32,6 @@ function sum(arr, N, K) {
                 v.push(x);
             }
         }
-        // Otherwise
         else
             break;
     }
