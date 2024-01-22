@@ -148,3 +148,21 @@ header .navbar .navbar-nav i {
     height: 2px;
     background-color: #2ecc71;
 }
+
+.subscription {
+    background-color: #61cf90;
+}
+
+/* .subscription .row {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+} */
+.subscription .row .sub input {
+    outline: none;
+    border: 1px solid;
+}
+
+.subscription .row .sub input::placeholder {
+    font-size: 0.9rem;
+}
