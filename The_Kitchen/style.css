@@ -41,7 +41,7 @@ button {
 }
 
 hr {
-    background-color: #3cff05;
+    background-color: #022504;
     color: #3cff05;
     height: .2rem;
 }
@@ -173,4 +173,34 @@ header .navbar .navbar-nav i {
     font-weight: bold;
     text-decoration: none;
     border-style: none;
+}
+
+.blog .row .sidebar .side2 .row .sidetext a {
+    text-decoration: none;
+    border-style: none;
+    color: #022504;
+    font-size: 0.8rem;
+}
+
+.blog .side3 .one {
+    height: 300px;
+    position: relative;
+}
+
+.blog .side3 .one img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.blog .side3 .one .text {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10rem 1.1rem 0 1.1rem;
 }
