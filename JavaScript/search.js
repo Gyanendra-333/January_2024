@@ -12,6 +12,7 @@ let x = 10;
 let n = arr.length;
 
 let result = search(arr, n, x);
+
 (result == -1)
     ? console.log("Element is not present in array")
     : console.log("Element is present at index " + result); 
