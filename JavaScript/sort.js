@@ -1,10 +1,8 @@
-
 function swap(arr, x, y) {
     let temp = arr[x];
     arr[x] = arr[y];
     arr[y] = temp
 }
-
 
 function sortInWave(arr, n) {
 
@@ -21,4 +19,3 @@ sortInWave(arr, n);
 
 for (let i = 0; i < n; i++)
     console.log(arr[i] + " ");
-
