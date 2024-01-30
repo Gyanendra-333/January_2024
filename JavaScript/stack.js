@@ -9,20 +9,20 @@ function isEmpty() {
 
 function push(x) {
     if (t >= (MAX - 1)) {
-        document.write("Stack Overflow");
+        console.log("Stack Overflow");
         return false;
     } else {
         t += 1;
         a[t] = x;
 
-        document.write(x + " pushed into stack<br />");
+        console.log(x + " pushed into stack");
         return true;
     }
 }
 
 function pop() {
     if (t < 0) {
-        document.write("Stack Underflow");
+        console.log("Stack Underflow");
         return 0;
     } else {
         var x = a[t];
@@ -33,7 +33,7 @@ function pop() {
 
 function peek() {
     if (t < 0) {
-        document.write("Stack Underflow");
+        console.log("Stack Underflow");
         return 0;
     } else {
         var x = a[t];
@@ -43,15 +43,15 @@ function peek() {
 
 function print() {
     for (i = t; i > -1; i--) {
-        document.write(" " + a[i]);
+        console.log(" " + a[i]);
     }
 }
 
 push(10);
 push(20);
 push(30);
-document.write(pop() + " Popped from stack");
-document.write("<br />Top element is :" + peek());
-document.write("<br />Elements present in stack : ");
+console.log(pop() + " Popped from stack");
+console.log("Top element is :" + peek());
+console.log("Elements present in stack : ");
 print();
 
