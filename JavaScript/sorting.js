@@ -20,13 +20,11 @@ function selectionSort(arr, n) {
         swap(arr, min_idx, i);
     }
 }
-
 function printArray(arr, size) {
     var i;
     for (i = 0; i < size; i++)
         console.log(arr[i] + " ");
 }
-
 var arr = [64, 25, 12, 22, 11];
 var n = 5;
 selectionSort(arr, n);
